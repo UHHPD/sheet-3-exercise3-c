@@ -1,1 +1,2 @@
 language = "cpp"
+run = "g++ -c poissonLikelihood.cc; g++ -o poissonLikelihood poissonLikelihood.o; ./poissonLikelihood"
