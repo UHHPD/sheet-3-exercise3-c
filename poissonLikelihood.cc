@@ -44,7 +44,6 @@ double findTop(std::vector<double> deltaLL, double start, double steps) {
   for(int mu = start; mu<6; mu+=steps) {
     
   }
-  
 }
 
 double findLL(double LL, std::vector<int> daten, double upper, double lower) {
@@ -100,7 +99,7 @@ int main() {
     double L_mu = prob(daten, mu);
     double LL = -2*log(L_mu);
     double deltaLL = LL - LL_mu;
-    //cout << mu << " " << deltaLL << endl;
+    //cout << mu << " " <<  << endl;
     fout << mu << " " << L_mu << endl;
     fout2 << mu << " " << LL << endl;
     fout3 << mu << " " << deltaLL << endl;
